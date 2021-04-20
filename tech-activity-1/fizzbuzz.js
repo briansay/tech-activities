@@ -14,6 +14,6 @@ function fizzBuzz(start, end) {
   return output;
 };
 
-// console.log(fizzbuzz(1,100));
+// console.log(fizzBuzz(1,100));
 
 module.exports = fizzBuzz;

@@ -18,7 +18,7 @@ Take them one at a time and **don't cheat** and look ahead :wink:.
 
 There are a few pre-requisites needed for both the _applicant_ and the _interviewer_:
 
-### Applicant pre-reqs
+**Applicant pre-reqs**:
 
 - Share your preferred programming language e.g. JavaScript, Java, Python, Go, etc.
 - Share your preferred unit testing framework e.g. Jest, JUnit, etc.
@@ -28,13 +28,15 @@ There are a few pre-requisites needed for both the _applicant_ and the _intervie
   - Download the OpenShift CLI, Docker CLI and Git CLI, or;
   - Download SSH capabilities on your local machine and setup a public/private key pair
 
-### Interviewer pre-reqs
+**Interviewer pre-reqs**:
 
 - Ensure you have access to the cloud account [1733587 - tech-garage-interviews](https://cloud.ibm.com/)
 - Power on the Linux VM `interview-jump-host` in the resource group `cloud_engineers`
-- Copy the applicant's public key over to the linux VM, e.g.:
-  `ssh-copy-id -i $HOME/.ssh/id_rsa.pub root@<floating_ip_address>`
-- Add the applicant
+- Copy the applicant's public key over to the linux VM so that they can SSH into it later on:
+  ```bash
+  ssh-copy-id -i </.../.../applicant_public_key.pub> root@<floating_ip_address>
+  ```
+- Add the applicant's email / IBMiD to the `APPLICANT - Cloud Engineer` resource group
 
 ## Deployment
 

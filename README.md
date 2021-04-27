@@ -42,13 +42,13 @@ This isn't a 'pass/fail' set of exercises. We are looking to see how applicants 
    - Select the 3 dots on the right hand side of the VM named `interview-jump-host`
    - Select `Start`
    - Copy the applicant's public key onto the VM, either by:
-     - Using `ssh-copy-id`
+     - Using `ssh-copy-id`. Note that you need to use the VMs floating IP address, found [here](https://cloud.ibm.com/vpc-ext/compute/vs)
        ```bash
-        ssh-copy-id -f -i public_key.pub root@10.11.12.13
+        ssh-copy-id -f -i public_key.pub root@150.0.0.2
        ```
-     - Logging onto the VM with `ssh`, copy the public key to the end of the file `~/.ssh/authorized_keys`
+     - Logging onto the VM with `ssh`, copy the public key to the end of the file `~/.ssh/authorized_keys`. Note that you need to use the VMs floating IP address, found [here](https://cloud.ibm.com/vpc-ext/compute/vs)
        ```bash
-       ssh root@10.11.12.13
+       ssh root@150.0.0.2
        cat public_key.pub >> ~/.ssh/authorized_keys
        ```
 

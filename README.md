@@ -1,24 +1,26 @@
 # IBM Technology Garage Interviews - Cloud Engineers
 
-# Quick Intro
-
 This repository contains the pairing challenges we use for the UKI IBM Technology Garage interviews, tailored for our prospective Cloud Engineers.
 
 This isn't a 'pass/fail' set of exercises. We are looking to see how applicants tackle a new challenge. How do they deal with a stack they aren't used to? How well can they look up documentation when stuck? There is no pass\fail. There is no 'right' answer.
 
 # Table of Contents
 
-- tbc
+1. Technical activities
+2. Applicant pre-requisites
+3. Interviewer pre-requisites
+4. Interviewer setup steps
+5. Author
 
 # Technical Activities
 
-| Number | Description                | Examples       | What we're looking for?             | Link |
-| ------ | -------------------------- | -------------- | ----------------------------------- | ---- |
-| 1.     | Programming Exercise       | FizzBuzz       | Work through a programming problem  | tbd  |
-| 2.     | Containerisation Exercise  | Dockerfile     | How to containerise an application  | tbd  |
-| 3.     | K8s / OpenShift Deployment | S2I / YAML     | How to deploy an application to K8s | tbd  |
-| 4.     | Alternative Deployments    | Jobs YAML      | Different deployment options        | tbd  |
-| 5.     | Advanced Deployments       | HA deployments | Using labels / taints               | tbd  |
+| Number | Description                | Examples       | What we're looking for?             | Link                                                                                            |
+| ------ | -------------------------- | -------------- | ----------------------------------- | ----------------------------------------------------------------------------------------------- |
+| 1.     | Programming Exercise       | FizzBuzz       | Work through a programming problem  | [link](https://github.com/briansay/tech-activities/tree/main/1-programming-challenge/fizz-buzz) |
+| 2.     | Containerisation Exercise  | Dockerfile     | How to containerise an application  | [Link](https://github.com/briansay/tech-activities/tree/main/2-containerise)                    |
+| 3.     | K8s / OpenShift Deployment | S2I / YAML     | How to deploy an application to K8s | [Link](https://github.com/briansay/tech-activities/tree/main/3-k8s-deployment)                  |
+| 4.     | Alternative Deployments    | Jobs YAML      | Different deployment options        | [Link](https://github.com/briansay/tech-activities/tree/main/4-alternative-deployment)          |
+| 5.     | Advanced Deployments       | HA deployments | Using labels / taints               | [Link](https://github.com/briansay/tech-activities/tree/main/5-advanced-deployment)             |
 
 # Applicant Pre-requisites
 

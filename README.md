@@ -46,8 +46,15 @@ This isn't a 'pass/fail' set of exercises. We are looking to see how applicants 
    - Select the 3 dots on the right hand side of the VM named `interview-jump-host`
    - Select `Start`
    - Copy the applicant's public key onto the VM, either by:
-     - Running `ssh-copy-id -f -i <public_key_path> root@<jump_host_ip>`
-     - Logging onto the VM, copying the public key to `~./ssh/authorized_keys`
+     - Using `ssh-copy-id`
+       ```bash
+        ssh-copy-id -f -i public_key.pub root@10.11.12.13
+       ```
+     - Logging onto the VM with `ssh`, copy the public key to the end of the file `~/.ssh/authorized_keys`
+       ```bash
+       ssh root@10.11.12.13
+       cat public_key.pub >> ~/.ssh/authorized_keys
+       ```
 
 3. Add the applicant's IBMiD to the account under the resource group `APPLICANT - Cloud Engineer`
    - Navigate to [IBM Cloud Users](https://cloud.ibm.com/iam/users) - ensuring you are on the `1733587 - tech-garage-interviews` Cloud account
@@ -55,7 +62,10 @@ This isn't a 'pass/fail' set of exercises. We are looking to see how applicants 
    - Enter the applicant's IBMiD and select `add` next to the `APPLICANT - Cloud Engineer` option
    - Click `Invite` on the far right hand side
 4. [*Optional - If applicant doesn't have a dockerhub account*] Login to IBM Container Registry (ICR)
-   - SSH into the VM e.g. `ssh root@<floating_up_address>`
+   - SSH into the VM using `ssh`, e.g.
+     ```bash
+     ssh root@10.11.12.13
+     ```
    - Login to the IBM Cloud CLI `ibmcloud login -sso` & follow instructions
    - Login to the IBM Cloud Container Registry `ibmcloud cr login`
 

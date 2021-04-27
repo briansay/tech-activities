@@ -34,13 +34,9 @@ This isn't a 'pass/fail' set of exercises. We are looking to see how applicants 
 
 # Interviewer Pre-requisites
 
-- Ensure you have access to the cloud account [1733587 - tech-garage-interviews](https://cloud.ibm.com/)
-- Follow the [Interview Setup steps](tbd)
-
-# Interviewer Setup Steps
-
-1. Log into the IBM cloud account [1733587 - tech-garage-interviews](https://cloud.ibm.com/)
-2. [*Optional - If using the jump host*] Power on the jump-host VM:
+1. Ensure you have access to the cloud account [1733587 - tech-garage-interviews](https://cloud.ibm.com/)
+2. Log into the IBM cloud account [1733587 - tech-garage-interviews](https://cloud.ibm.com/)
+3. [*Optional - If using the jump host*] Power on the jump-host VM:
 
    - Navigate to [Virtual Server Instances](https://cloud.ibm.com/vpc-ext/compute/vs) - ensuring you are on the `1733587 - tech-garage-interviews` Cloud account
    - Select the 3 dots on the right hand side of the VM named `interview-jump-host`
@@ -56,12 +52,12 @@ This isn't a 'pass/fail' set of exercises. We are looking to see how applicants 
        cat public_key.pub >> ~/.ssh/authorized_keys
        ```
 
-3. Add the applicant's IBMiD to the account under the resource group `APPLICANT - Cloud Engineer`
+4. Add the applicant's IBMiD to the account under the resource group `APPLICANT - Cloud Engineer`
    - Navigate to [IBM Cloud Users](https://cloud.ibm.com/iam/users) - ensuring you are on the `1733587 - tech-garage-interviews` Cloud account
    - Select `Invite Users`
    - Enter the applicant's IBMiD and select `add` next to the `APPLICANT - Cloud Engineer` option
    - Click `Invite` on the far right hand side
-4. [*Optional - If applicant doesn't have a dockerhub account*] Login to IBM Container Registry (ICR)
+5. [*Optional - If applicant doesn't have a dockerhub account*] Login to IBM Container Registry (ICR)
    - SSH into the VM using `ssh`, e.g.
      ```bash
      ssh root@10.11.12.13

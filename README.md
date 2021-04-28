@@ -9,7 +9,7 @@ This isn't a 'pass/fail' set of exercises. We are looking to see how applicants 
 1. Technical activities
 2. Applicant pre-requisites
 3. Interviewer pre-requisites and setup
-4. Interview introduction
+4. Script for introduction of technical exercise
 5. Author
 
 # 1 - Technical Activities
@@ -65,8 +65,31 @@ This isn't a 'pass/fail' set of exercises. We are looking to see how applicants 
    - Login to the IBM Cloud CLI `ibmcloud login -sso` & follow instructions
    - Login to the IBM Cloud Container Registry `ibmcloud cr login`
 
-# 4 - Interview introduction
+# 4 - Script for introduction of technical exercise
 
+`[this follows after the candidate has finished their presentation and questions]`
+
+Let's move on to the second part of the technical challenge. We will get a bit more hands on from this point. The excercise comes in three parts:
+
+First is a programming challenge. You told us that your favourite language is **[Javascript | Java | Python ]** so we would like you to solve a small programming problem using Test Driven Development principles. Have you used TDD before?
+
+`[in case they have NOT used TDD provide the following introduction: ]`
+The approach we follow in TDD is Red-Green-Refactor. You start with with writing the test first - as simple as possible - run it and it will fail i.e. be red. Then you write just as much code as necessary to make the test pass, i.e. make it turn green. Lastly if appropriate refactor the code/test. Using this iterative approach you build up the code until all functionality is there. Red-Green-Refactor. We use this approach in our method so it will be a good introduction for you. That is part 1.
+
+`[continue...]`
+
+In the second part we will take the code you've written and containerise it so it runs in a docker container.
+
+Lastly, the challenge will be to deploy the code into an OpenShift cluster which we have prepared for you.
+
+So in a nutshell, write a program using TDD, package it in a container, deploy the container on Openshift.
+
+Now, there are three really important things to understand before we start:
+1. The outcome you produce for this exercise is not the most important aspect for us. We're trying to understand what it is like to be working with you. So if it helps, you can think of me as the new guy in the team. As you go, explain your thought process and make sure you'll bring me along with what you're doing.
+2. Remember this part is open book. Feel free to google or consult other resources along the way. (apart from googling the solution to programming challenge of course). We'd just like to see what you're doing. AND, to make this bit more fun ... you now have a joker. If at any point during this you have a question you want us to answer straight up, use it... wisely.
+3. Lastly, time. Don't worry about it too much. It would be nice if you finished each part but no problem if you don't. The outcome is not the most important thing here. We have prepared code snippets and files to use with the next part of the challenge if we run out of time. So for example, if you weren't quite finished with your code in the first part, we have some sample code for you to package as a container in the second part.
+
+Alright, does that make sense? Are you ready to start?
 
 
 # Authors

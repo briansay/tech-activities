@@ -84,6 +84,8 @@ Lastly, the challenge will be to deploy the code into an OpenShift cluster which
 
 So in a nutshell, write a program using TDD, package it in a container, deploy the container on Openshift.
 
+`[short pause]`
+
 Now, there are three really important things to understand before we start:
 1. The outcome you produce for this exercise is not the most important aspect for us. We're trying to understand what it is like to be working with you. So if it helps, you can think of me as the new guy in the team. As you go, explain your thought process and make sure you'll bring me along with what you're doing.
 2. Remember this part is open book. Feel free to google or consult other resources along the way. (apart from googling the solution to programming challenge of course). We'd just like to see what you're doing. AND, to make this bit more fun ... you now have a joker. If at any point during this you have a question you want us to answer straight up, use it... wisely.

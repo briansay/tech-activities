@@ -1,4 +1,4 @@
-# FizzBuzz Programming Challenge
+# FizzBuzz TDD Challenge
 
 # Table of contents
 

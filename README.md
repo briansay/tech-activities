@@ -6,11 +6,11 @@ This isn't a 'pass/fail' set of exercises. We are looking to see how applicants 
 
 # Table of Contents
 
-1. Technical activities
-2. Applicant pre-requisites
-3. Interviewer pre-requisites and setup
-4. Script for introduction of technical exercise
-5. Author
+1. [Technical activities](https://github.com/briansay/tech-activities#1---technical-activities)
+2. [Applicant pre-requisites](https://github.com/briansay/tech-activities#2---applicant-pre-requisites)
+3. [Interviewer pre-requisites and setup](https://github.com/briansay/tech-activities#3---interviewer-pre-requisites-and-setup)
+4. [Script for introduction of technical exercise](https://github.com/briansay/tech-activities#4---script-for-introduction-of-technical-exercise)
+5. [Authors](https://github.com/briansay/tech-activities#5---authors)
 
 # 1 - Technical Activities
 
@@ -94,7 +94,7 @@ Now, there are three really important things to understand before we start:
 Alright, does that make sense? Are you ready to start?
 
 
-# Authors
+# 5 - Authors
 
 - [Brian Say - Solution Architect | IBM Technology Garage](https://github.com/briansay)
 - [Carsten Börnert - Cloud Engineer | IBM Technology Garage](tbd)

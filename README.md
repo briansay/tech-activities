@@ -8,11 +8,11 @@ This isn't a 'pass/fail' set of exercises. We are looking to see how applicants 
 
 1. Technical activities
 2. Applicant pre-requisites
-3. Interviewer pre-requisites
-4. Interviewer setup steps
+3. Interviewer pre-requisites and setup
+4. Interview introduction
 5. Author
 
-# Technical Activities
+# 1 - Technical Activities
 
 | Number | Description                | Examples       | What we're looking for?             | Link                                                                                            |
 | ------ | -------------------------- | -------------- | ----------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -22,7 +22,7 @@ This isn't a 'pass/fail' set of exercises. We are looking to see how applicants 
 | 4.     | Alternative Deployments    | Jobs YAML      | Different deployment options        | [Link](https://github.com/briansay/tech-activities/tree/main/4-alternative-deployment)          |
 | 5.     | Advanced Deployments       | HA deployments | Using labels / taints               | [Link](https://github.com/briansay/tech-activities/tree/main/5-advanced-deployment)             |
 
-# Applicant Pre-requisites
+# 2 - Applicant Pre-requisites
 
 - Share their preferred programming language e.g. JavaScript, Java, Python, Go, etc.
 - Share their preferred unit testing framework e.g. Jest, JUnit, etc.
@@ -32,7 +32,7 @@ This isn't a 'pass/fail' set of exercises. We are looking to see how applicants 
   - Download the [OpenShift CLI](https://cloud.ibm.com/docs/openshift?topic=openshift-openshift-cli) and [Docker CLI](https://docs.docker.com/get-docker/) and [IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-getting-started), or;
   - Download SSH capabilities onto their local machine and setup a [public/private key pair](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-2)
 
-# Interviewer Pre-requisites
+# 3 - Interviewer Pre-requisites and setup
 
 1. Ensure you have access to the cloud account [1733587 - tech-garage-interviews](https://cloud.ibm.com/)
 2. Log into the IBM cloud account [1733587 - tech-garage-interviews](https://cloud.ibm.com/)
@@ -64,6 +64,10 @@ This isn't a 'pass/fail' set of exercises. We are looking to see how applicants 
      ```
    - Login to the IBM Cloud CLI `ibmcloud login -sso` & follow instructions
    - Login to the IBM Cloud Container Registry `ibmcloud cr login`
+
+# 4 - Interview introduction
+
+
 
 # Authors
 

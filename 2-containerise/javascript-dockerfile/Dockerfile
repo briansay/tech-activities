@@ -1,6 +1,6 @@
 FROM node:14 
 WORKDIR /usr/src/app
-COPY package*.json fizzbuzz.js ./
+COPY package*.json helloworld.js ./
 RUN npm install
-EXPOSE 3000
+# EXPOSE 3000
 CMD [ "npm", "start" ]

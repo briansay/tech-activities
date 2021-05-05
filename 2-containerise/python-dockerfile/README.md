@@ -1,0 +1,50 @@
+# TBD
+
+To build & run the container from the Dockerfile:
+
+1. Ensure you are in the correct directory:
+
+   ```bash
+   cd <location_cloned>/tech-activities/2-containerise/python-dockerfile #Or whichever directory the .py file and Dockerfile are in
+   ```
+
+2. Build the container using docker build (or alternatives):
+
+   ```bash
+   docker build -t <enter_name> .
+   ```
+
+   e.g.:
+
+   ```bash
+   docker build -t python-hello-world .
+   ```
+
+   **Please note** not to forget the trailing `.` as this denotes the directory of the Dockerfile
+
+3. Run the image using docker run (or alternatives):
+
+   ```bash
+   docker run -d -p <browser_port>:<container_port> <image_name>
+   ```
+
+   e.g.:
+
+   ```bash
+   docker run -d -p 3333:3333 python-hello-world
+   ```
+
+4. Confirm the container is running using docker ps:
+   ```bash
+   docker ps
+   CONTAINER ID   IMAGE                COMMAND                  CREATED          STATUS          PORTS                    NAMES
+   838c62167622   python-hello-world   "python ./helloworld…"   47 minutes ago   Up 47 minutes   0.0.0.0:3333->3333/tcp   reverent_dubinsky
+   ```
+5. **If using a hello world example** which exposes a port & displays info, access it locally using curl or a browser:
+   ```bash
+   curl http://localhost:<exposed_port>/
+   ```
+   e.g.
+   ```bash
+   curl http://localhost:3333/
+   ```

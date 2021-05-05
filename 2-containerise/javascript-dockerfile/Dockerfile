@@ -1,6 +1,14 @@
-FROM node:14 
+# FROM node:14 
+# WORKDIR /usr/src/app
+# COPY package*.json helloworld.js ./
+# RUN npm install
+# # EXPOSE 3000
+# CMD [ "npm", "start" ]
+
+
+FROM node:14
 WORKDIR /usr/src/app
-COPY package*.json helloworld.js ./
+COPY package*.json app.js ./
 RUN npm install
-# EXPOSE 3000
-CMD [ "npm", "start" ]
+EXPOSE 3000
+CMD ["node", "app.js"]

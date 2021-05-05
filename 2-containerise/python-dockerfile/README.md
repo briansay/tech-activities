@@ -1,6 +1,6 @@
 # TBD
 
-To build & run the container from the Dockerfile:
+Below are some example instructions to build, run & push the image / container:
 
 1. Ensure you are in the correct directory:
 
@@ -35,16 +35,25 @@ To build & run the container from the Dockerfile:
    ```
 
 4. Confirm the container is running using docker ps:
+
    ```bash
    docker ps
    CONTAINER ID   IMAGE                COMMAND                  CREATED          STATUS          PORTS                    NAMES
    838c62167622   python-hello-world   "python ./helloworld…"   47 minutes ago   Up 47 minutes   0.0.0.0:3333->3333/tcp   reverent_dubinsky
    ```
+
 5. **If using a hello world example** which exposes a port & displays info, access it locally using curl or a browser:
+
    ```bash
    curl http://localhost:<exposed_port>/
    ```
+
    e.g.
+
    ```bash
    curl http://localhost:3333/
    ```
+
+6. Push to the IBM Cloud Container Registry (other registries available):
+
+   Follow these instructions: [https://cloud.ibm.com/docs/Registry?topic=Registry-getting-started#gs_registry_images_pushing](https://cloud.ibm.com/docs/Registry?topic=Registry-getting-started#gs_registry_images_pushing)

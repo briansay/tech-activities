@@ -4,15 +4,11 @@ This repository contains the pairing challenges we use for the UKI IBM Technolog
 
 This isn't a 'pass/fail' set of exercises. We are looking to see how applicants tackle a new challenge. How do they deal with a stack they aren't used to? How well can they look up documentation when stuck? There is no pass\fail. There is no 'right' answer.
 
-# Table of Contents
+## Technical exercises
 
-1. [Technical activities](https://github.com/briansay/tech-activities#1---technical-activities)
-2. [Applicant pre-requisites](https://github.com/briansay/tech-activities#2---applicant-pre-requisites)
-3. [Interviewer pre-requisites and setup](https://github.com/briansay/tech-activities#3---interviewer-pre-requisites-and-setup)
-4. [Script for introduction of technical exercise](https://github.com/briansay/tech-activities#4---script-for-introduction-of-technical-exercise)
-5. [Authors](https://github.com/briansay/tech-activities#5---authors)
+---
 
-# 1 - Technical Activities
+Here are the challenges that will be performed as part of the pairing exercises:
 
 | Number | Description                | Examples       | What we're looking for?             | Link                                                                                    |
 | ------ | -------------------------- | -------------- | ----------------------------------- | --------------------------------------------------------------------------------------- |
@@ -22,7 +18,11 @@ This isn't a 'pass/fail' set of exercises. We are looking to see how applicants 
 | 4.     | Alternative Deployments    | Jobs YAML      | Different deployment options        | [Link](https://github.com/briansay/tech-activities/tree/main/4-alternative-deployment)  |
 | 5.     | Advanced Deployments       | HA deployments | Using labels / taints               | [Link](https://github.com/briansay/tech-activities/tree/main/5-advanced-deployment)     |
 
-# 2 - Applicant Pre-requisites
+## Applicant pre-requisites
+
+---
+
+Applicants need to:
 
 - Share their preferred programming language e.g. JavaScript, Java, Python, Go, etc.
 - Share their preferred unit testing framework e.g. Jest, JUnit, etc.
@@ -32,40 +32,58 @@ This isn't a 'pass/fail' set of exercises. We are looking to see how applicants 
   - Download the [OpenShift CLI](https://cloud.ibm.com/docs/openshift?topic=openshift-openshift-cli) and [Docker CLI](https://docs.docker.com/get-docker/) and [IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-getting-started), or;
   - Download SSH capabilities onto their local machine and setup a [public/private key pair](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-2)
 
-# 3 - Interviewer Pre-requisites and setup
+## Interviewer pre-requisites and setup
+
+---
+
+Interviewers need to:
 
 1. Ensure you have access to the cloud account [1733587 - tech-garage-interviews](https://cloud.ibm.com/)
-2. Log into the IBM cloud account [1733587 - tech-garage-interviews](https://cloud.ibm.com/)
-3. [*Optional - If using the jump host*] Power on the jump-host VM:
+2. [*Optional - If using the jump host*] Power on the jump-host VM:
 
    - Navigate to [Virtual Server Instances](https://cloud.ibm.com/vpc-ext/compute/vs) - ensuring you are on the `1733587 - tech-garage-interviews` Cloud account
    - Select the 3 dots on the right hand side of the VM named `interview-jump-host`
    - Select `Start`
-   - Copy the applicant's public key onto the VM, either by:
-     - Using `ssh-copy-id`. Note that you need to use the VMs floating IP address, found [here](https://cloud.ibm.com/vpc-ext/compute/vs)
-       ```bash
-        ssh-copy-id -f -i public_key.pub root@150.0.0.2
-       ```
-     - Logging onto the VM with `ssh`, copy the public key to the end of the file `~/.ssh/authorized_keys`. Note that you need to use the VMs floating IP address, found [here](https://cloud.ibm.com/vpc-ext/compute/vs)
-       ```bash
-       ssh root@150.0.0.2
-       cat public_key.pub >> ~/.ssh/authorized_keys
-       ```
 
-4. Add the applicant's IBMiD to the account under the resource group `APPLICANT - Cloud Engineer`
+3. Add the applicant's IBMiD to the account under the resource group `APPLICANT - Cloud Engineer`
    - Navigate to [IBM Cloud Users](https://cloud.ibm.com/iam/users) - ensuring you are on the `1733587 - tech-garage-interviews` Cloud account
    - Select `Invite Users`
    - Enter the applicant's IBMiD and select `add` next to the `APPLICANT - Cloud Engineer` option
    - Click `Invite` on the far right hand side
-5. [*Optional - If applicant doesn't have a dockerhub account*] Login to IBM Container Registry (ICR)
+
+## Additional instructions for the cloud environment
+
+---
+
+1. Copy the applicant's public key onto the VM, either by:
+
+   - Using `ssh-copy-id`. Note that you need to use the VMs floating IP address, found [here](https://cloud.ibm.com/vpc-ext/compute/vs)
+
+     ```bash
+     ssh-copy-id -f -i public_key.pub root@150.0.0.2
+     ```
+
+   - Logging onto the VM with `ssh`, copy the public key to the end of the file `~/.ssh/authorized_keys`. Note that you need to use the VMs floating IP address, found [here](https://cloud.ibm.com/vpc-ext/compute/vs)
+
+     ```bash
+     ssh root@150.0.0.2
+     cat public_key.pub >> ~/.ssh/authorized_keys
+     ```
+
+2. [*Optional - If applicant doesn't have a dockerhub account*] Login to IBM Container Registry (ICR)
+
    - SSH into the VM using `ssh`, e.g.
+
      ```bash
      ssh root@10.11.12.13
      ```
+
    - Login to the IBM Cloud CLI `ibmcloud login -sso` & follow instructions
    - Login to the IBM Cloud Container Registry `ibmcloud cr login`
 
-# 4 - Script for introduction of technical exercise
+## Script for introducing the technical exercises
+
+---
 
 `[this follows after the candidate has finished their presentation and questions]`
 
@@ -94,7 +112,9 @@ Now, there are three really important things to understand before we start:
 
 Alright, does that make sense? Are you ready to start?
 
-# 5 - Authors
+## Authors
+
+---
 
 - [Brian Say - Solution Architect | IBM Technology Garage](https://github.com/briansay)
 - [Carsten Börnert - Cloud Engineer | IBM Technology Garage](tbd)

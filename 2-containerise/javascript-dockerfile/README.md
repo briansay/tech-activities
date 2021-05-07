@@ -5,7 +5,7 @@ Below are some example instructions to build, run & push the image / container:
 1. Ensure you are in the correct directory:
 
    ```bash
-   cd <location_cloned>/tech-activities/2-containerise/javascript-dockerfile #Or whichever directory the .py file and Dockerfile are in
+   cd <location_cloned>/tech-activities/2-containerise/javascript-dockerfile #Or whichever directory the .js file and Dockerfile are in
    ```
 
 2. Build the container using docker build (or alternatives):

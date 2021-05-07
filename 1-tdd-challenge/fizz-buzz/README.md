@@ -32,7 +32,7 @@ Feel free to share these points with the applicant if you feel the need to:
 
 | Programming Language | Unit Test Framework | Link |
 | :------------------- | :------------------ | :--- |
-| JavaScript           | Jest                | tbd  |
+| JavaScript           | Jest                | [Link](./javascript-jest)  |
 | JavaScript           | Mocha               | tbd  |
 | Java                 | JUnit               | tbd  |
-| Python               | PyTest              | tbd  |
+| Python               | PyTest              | [Link](./python-pytest) |

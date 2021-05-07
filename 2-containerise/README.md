@@ -1,14 +1,6 @@
 # Containerise an application
 
-# Table of contents
-
-1. The challenge
-2. What we are looking for
-3. Tips for the IBM-er pair
-4. HelloWorld examples
-5. Dockerfile examples
-
-# The challenge
+## The challenge
 
 Take the previous programming exercise that you just did and containerise it. This includes:
 
@@ -16,7 +8,7 @@ Take the previous programming exercise that you just did and containerise it. Th
 - Confirming the image runs and works as expected
 - Pushing the container to an image registry
 
-# What we are looking for
+## What we are looking for
 
 Feel free to share these points with the applicant if you feel the need to:
 
@@ -25,13 +17,13 @@ Feel free to share these points with the applicant if you feel the need to:
 - Understanding of tagging and image repositories
 - Ability to debug failed build attempts
 
-# Tips for the IBM-er pair
+## Tips for the IBM-er pair
 
 1. Reaffirm throughout that this is an open book exercise. Encourage Googling & searching for documentation
 2. This style of remote pairing isn't natural. You may need to initiate the conversations more often at the beginning of the exercise
 3. Interviews are nerve-wracking. If the applicant seems frazzled then feel free to help them alog and make them more comfortable
 
-# HelloWorld examples
+## HelloWorld examples
 
 If the applicant doesn't complete the FizzBuzz challenge then they can download these HelloWorld examples and containerise them.
 
@@ -41,7 +33,7 @@ If the applicant doesn't complete the FizzBuzz challenge then they can download 
 | Java                 | tbd  |
 | Python               | tbd  |
 
-# Dockerfile examples
+## Dockerfile examples
 
 | Programming Language | Link |
 | :------------------- | :--- |

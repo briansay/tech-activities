@@ -6,8 +6,6 @@ This isn't a 'pass/fail' set of exercises. We are looking to see how applicants 
 
 ## Technical exercises
 
----
-
 Here are the challenges that will be performed as part of the pairing exercises:
 
 | Number | Description                | Examples       | What we're looking for?             | Link                                                                                    |
@@ -20,8 +18,6 @@ Here are the challenges that will be performed as part of the pairing exercises:
 
 ## Applicant pre-requisites
 
----
-
 Applicants need to:
 
 - Share their preferred programming language e.g. JavaScript, Java, Python, Go, etc.
@@ -33,8 +29,6 @@ Applicants need to:
   - Download SSH capabilities onto their local machine and setup a [public/private key pair](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-2)
 
 ## Interviewer pre-requisites and setup
-
----
 
 Interviewers need to:
 
@@ -52,8 +46,6 @@ Interviewers need to:
    - Click `Invite` on the far right hand side
 
 ## Additional instructions for the cloud environment
-
----
 
 1. Copy the applicant's public key onto the VM, either by:
 
@@ -83,8 +75,6 @@ Interviewers need to:
 
 ## Script for introducing the technical exercises
 
----
-
 `[this follows after the candidate has finished their presentation and questions]`
 
 Let's move on to the second part of the technical challenge. We will get a bit more hands on from this point. The excercise comes in three parts:
@@ -113,8 +103,6 @@ Now, there are three really important things to understand before we start:
 Alright, does that make sense? Are you ready to start?
 
 ## Authors
-
----
 
 - [Brian Say - Solution Architect | IBM Technology Garage](https://github.com/briansay)
 - [Carsten Börnert - Cloud Engineer | IBM Technology Garage](tbd)

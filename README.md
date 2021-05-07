@@ -8,13 +8,11 @@ This isn't a 'pass/fail' set of exercises. We are looking to see how applicants 
 
 Here are the challenges that will be performed as part of the pairing exercises:
 
-| Number | Description                | Examples       | What we're looking for?             | Link                                                                                    |
-| ------ | -------------------------- | -------------- | ----------------------------------- | --------------------------------------------------------------------------------------- |
-| 1.     | TDD Exercise               | FizzBuzz       | Work through a programming problem  | [Link](https://github.com/briansay/tech-activities/tree/main/1-tdd-challenge/fizz-buzz) |
-| 2.     | Containerisation Exercise  | Dockerfile     | How to containerise an application  | [Link](https://github.com/briansay/tech-activities/tree/main/2-containerise)            |
-| 3.     | K8s / OpenShift Deployment | S2I / YAML     | How to deploy an application to K8s | [Link](https://github.com/briansay/tech-activities/tree/main/3-k8s-deployment)          |
-| 4.     | Alternative Deployments    | Jobs YAML      | Different deployment options        | [Link](https://github.com/briansay/tech-activities/tree/main/4-alternative-deployment)  |
-| 5.     | Advanced Deployments       | HA deployments | Using labels / taints               | [Link](https://github.com/briansay/tech-activities/tree/main/5-advanced-deployment)     |
+| Number | Description                | Examples   | What we're looking for?             | Link                                                                                    |
+| ------ | -------------------------- | ---------- | ----------------------------------- | --------------------------------------------------------------------------------------- |
+| 1.     | TDD Exercise               | FizzBuzz   | Work through a programming problem  | [Link](https://github.com/briansay/tech-activities/tree/main/1-tdd-challenge/fizz-buzz) |
+| 2.     | Containerisation Exercise  | Dockerfile | How to containerise an application  | [Link](https://github.com/briansay/tech-activities/tree/main/2-containerise)            |
+| 3.     | K8s / OpenShift Deployment | S2I / YAML | How to deploy an application to K8s | [Link](https://github.com/briansay/tech-activities/tree/main/3-k8s-deployment)          |
 
 ## Applicant pre-requisites
 

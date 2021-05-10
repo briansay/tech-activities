@@ -79,9 +79,9 @@ Screen share for the IBM-er pair as they explain the set of challenges:
 
 Links to share with the applicant. **Observer** please copy these into the WebEx chat whilst the IBM-er pair is explaining the exercises:
 
-- TDD challenge Box note - [https://ibm.box.com/s/26n1v0bpzz7f3to2sne09iioff2ovxr6](https://ibm.box.com/s/f9dsbpdayd8x4vmgdfz6efua4yql7des)
-- Containerise challenge Box note - [https://ibm.box.com/s/x5gbdkhwq5l3fd18xgqr9zw4seyk8ecw](https://ibm.box.com/s/f9dsbpdayd8x4vmgdfz6efua4yql7des)
-- Deployment challenge Box note - [https://ibm.box.com/s/fbc5l095zkc97pq5h653scwjmkhpp07n](https://ibm.box.com/s/f9dsbpdayd8x4vmgdfz6efua4yql7des)
+- TDD challenge Box note - [https://ibm.box.com/s/26n1v0bpzz7f3to2sne09iioff2ovxr6](https://ibm.box.com/s/26n1v0bpzz7f3to2sne09iioff2ovxr6)
+- Containerise challenge Box note - [https://ibm.box.com/s/x5gbdkhwq5l3fd18xgqr9zw4seyk8ecw](https://ibm.box.com/s/x5gbdkhwq5l3fd18xgqr9zw4seyk8ecw)
+- Deployment challenge Box note - [https://ibm.box.com/s/fbc5l095zkc97pq5h653scwjmkhpp07n](https://ibm.box.com/s/fbc5l095zkc97pq5h653scwjmkhpp07n)
 
 ## Script for introducing the technical exercises
 

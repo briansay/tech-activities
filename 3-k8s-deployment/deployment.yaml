@@ -1,0 +1,58 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: git-js-hello-world-2
+  labels:
+    app: git-js-hello-world-2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: git-js-hello-world-2
+  template:
+    metadata:
+      labels:
+        app: git-js-hello-world-2
+    spec:
+      containers:
+        - name: git-js-hello-world-2
+          image: >-
+            uk.icr.io/ce-interviews/javascript-hello-world:latest
+          imagePullPolicy: Always
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 30
+      dnsPolicy: ClusterFirst
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: git-js-hello-world-2
+  labels:
+    app: git-js-hello-world-2
+spec:
+  ports:
+    - name: 3000-tcp
+      protocol: TCP
+      port: 3000
+      targetPort: 3000
+  selector:
+    app: git-js-hello-world-2
+
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: git-js-hello-world-2
+  labels:
+    app: git-js-hello-world-2
+spec:
+  host: >-
+    git-js-hello-world-2-default.openshift-cloud-engineers-7e48393766f7a98504635e6176b9c289-0000.eu-gb.containers.appdomain.cloud
+  to:
+    kind: Service
+    name: git-js-hello-world-2
+    weight: 100
+  port:
+    targetPort: 3000-tcp
+  wildcardPolicy: None

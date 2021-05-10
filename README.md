@@ -71,6 +71,18 @@ Interviewers need to:
    - Login to the IBM Cloud CLI `ibmcloud login -sso` & follow instructions
    - Login to the IBM Cloud Container Registry `ibmcloud cr login`
 
+## Key Links
+
+Screen share for the IBM-er pair as they explain the set of challenges:
+
+- PPT slide - [https://ibm.box.com/s/f9dsbpdayd8x4vmgdfz6efua4yql7des](https://ibm.box.com/s/f9dsbpdayd8x4vmgdfz6efua4yql7des)
+
+Links to share with the applicant. **Observer** please copy these into the WebEx chat whilst the IBM-er pair is explaining the exercises:
+
+- TDD challenge Box note - [https://ibm.box.com/s/26n1v0bpzz7f3to2sne09iioff2ovxr6](https://ibm.box.com/s/f9dsbpdayd8x4vmgdfz6efua4yql7des)
+- Containerise challenge Box note - [https://ibm.box.com/s/x5gbdkhwq5l3fd18xgqr9zw4seyk8ecw](https://ibm.box.com/s/f9dsbpdayd8x4vmgdfz6efua4yql7des)
+- Deployment challenge Box note - [https://ibm.box.com/s/fbc5l095zkc97pq5h653scwjmkhpp07n](https://ibm.box.com/s/f9dsbpdayd8x4vmgdfz6efua4yql7des)
+
 ## Script for introducing the technical exercises
 
 `[this follows after the candidate has finished their presentation and questions]`

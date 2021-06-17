@@ -77,11 +77,9 @@ Screen share for the IBM-er pair as they explain the set of challenges:
 
 - PPT slide - [https://ibm.box.com/s/f9dsbpdayd8x4vmgdfz6efua4yql7des](https://ibm.box.com/s/f9dsbpdayd8x4vmgdfz6efua4yql7des)
 
-Links to share with the applicant. **Observer** please copy these into the WebEx chat whilst the IBM-er pair is explaining the exercises:
+Links to share with the applicant. **Observer** please find & copy these into the WebEx chat whilst the IBM-er pair is explaining the exercises:
 
-- TDD challenge Box note - [https://ibm.box.com/s/luqomchc9fw20fr88bsg6wrlrm63hk2q](https://ibm.box.com/s/luqomchc9fw20fr88bsg6wrlrm63hk2q)
-- Containerise challenge Box note - [https://ibm.box.com/s/ydtrnbw31ttabkgagmcg8xckhbwddkd6](https://ibm.box.com/s/ydtrnbw31ttabkgagmcg8xckhbwddkd6)
-- Deployment challenge Box note - [https://ibm.box.com/s/vt51n0o3b4kf161fygaldml9apoxxuu3](https://ibm.box.com/s/vt51n0o3b4kf161fygaldml9apoxxuu3)
+- Folder with all links (as individual links keep adding expiration timers) - [https://ibm.box.com/s/qjobtgm9ab4vybvuvchw1jasjszc1eql](https://ibm.box.com/s/qjobtgm9ab4vybvuvchw1jasjszc1eql)
 
 ## Script for introducing the technical exercises
 

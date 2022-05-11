@@ -1,6 +1,6 @@
-# IBM Technology Garage Interviews - Cloud Engineers
+# IBM Client Engineering Interviews - Cloud Engineers
 
-This repository contains the pairing challenges we use for the UKI IBM Technology Garage interviews, tailored for our prospective Cloud Engineers.
+This repository contains the pairing challenges we use for the UKI Client Engineering interviews, tailored for our prospective Cloud Engineers.
 
 This isn't a 'pass/fail' set of exercises. We are looking to see how applicants tackle a new challenge. How do they deal with a stack they aren't used to? How well can they look up documentation when stuck? There is no pass\fail. There is no 'right' answer.
 
@@ -20,32 +20,21 @@ Applicants need to:
 
 - Share their preferred programming language e.g. JavaScript, Java, Python, Go, etc.
 - Share their preferred unit testing framework e.g. Jest, JUnit, etc.
-- Create an IBM ID by signing up for a free (no credit card required) IBM Cloud account
-  - [Sign up here](https://cloud.ibm.com/registration)
-- Either:
-  - Download the [OpenShift CLI](https://cloud.ibm.com/docs/openshift?topic=openshift-openshift-cli) and [Docker CLI](https://docs.docker.com/get-docker/) and [IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-getting-started), or;
-  - Download SSH capabilities onto their local machine and setup a [public/private key pair](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-2)
+- Download the [Docker CLI](https://docs.docker.com/get-docker/) or [Podman CLI](https://podman.io/getting-started/installation) 
+- Download SSH capabilities onto their local machine and setup a [public/private key pair](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-2)
 
 ## Interviewer pre-requisites and setup
 
 Interviewers need to:
 
-1. Ensure you have access to the cloud account [1733587 - tech-garage-interviews](https://cloud.ibm.com/)
-2. [*Optional - If using the jump host*] Power on the jump-host VM:
+1. Ensure you have access to the cloud account [1733587 - client-eng-interviews](https://cloud.ibm.com/)
+2. Power on the jump-host VM:
 
-   - Navigate to [Virtual Server Instances](https://cloud.ibm.com/vpc-ext/compute/vs) - ensuring you are on the `1733587 - tech-garage-interviews` Cloud account
+   - Navigate to [Virtual Server Instances](https://cloud.ibm.com/vpc-ext/compute/vs) - ensuring you are on the `1733587 - client-eng-interviews` Cloud account
    - Select the 3 dots on the right hand side of the VM named `interview-jump-host`
    - Select `Start`
 
-3. Add the applicant's IBMiD to the account under the resource group `APPLICANT - Cloud Engineer`
-   - Navigate to [IBM Cloud Users](https://cloud.ibm.com/iam/users) - ensuring you are on the `1733587 - tech-garage-interviews` Cloud account
-   - Select `Invite Users`
-   - Enter the applicant's IBMiD and select `add` next to the `APPLICANT - Cloud Engineer` option
-   - Click `Invite` on the far right hand side
-
-## Additional instructions for the cloud environment
-
-1. Copy the applicant's public key onto the VM, either by:
+3. Copy the applicant's public key onto the VM, either by:
 
    - Using `ssh-copy-id`. Note that you need to use the VMs floating IP address, found [here](https://cloud.ibm.com/vpc-ext/compute/vs)
 
@@ -60,16 +49,14 @@ Interviewers need to:
      cat public_key.pub >> ~/.ssh/authorized_keys
      ```
 
-2. [*Optional - If applicant doesn't have a dockerhub account*] Login to IBM Container Registry (ICR)
+4. Log into the IBM Cloud CLI using interviewer onetime passcode
+    - End user types `ibmcloud login -sso`
+    - Interviewer or observer navigates to [https://identity-3.uk-south.iam.cloud.ibm.com/identity/passcode](https://identity-3.uk-south.iam.cloud.ibm.com/identity/passcode)
+    - Copy the code to the interviewee who then copies it into the CLI 
+    - Select the number associated with `1733587 - client-eng-interviews`
 
-   - SSH into the VM using `ssh`, e.g.
-
-     ```bash
-     ssh root@10.11.12.13
-     ```
-
-   - Login to the IBM Cloud CLI `ibmcloud login -sso` & follow instructions
-   - Login to the IBM Cloud Container Registry `ibmcloud cr login`
+6. [*Optional - If applicant doesn't have a dockerhub account*] Login to IBM Container Registry (ICR)
+   - Run the command `ibmcloud cr`
 
 ## Key Links
 
@@ -112,6 +99,6 @@ Alright, does that make sense? Are you ready to start?
 
 ## Authors
 
-- [Brian Say - Solution Architect | IBM Technology Garage](https://github.com/briansay)
-- [Carsten Börnert - Cloud Engineer | IBM Technology Garage](tbd)
-- [Emma Dawson - Cloud Engineer | IBM Technology Garage](tbd)
+- [Brian Say - Solution Architect | IBM Client Engineering](https://github.com/briansay)
+- [Carsten Börnert - Cloud Engineer | IBM Client Engineering](tbd)
+- [Emma Dawson - Cloud Engineer | IBM Client Engineering](tbd)

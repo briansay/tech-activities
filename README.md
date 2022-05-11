@@ -58,6 +58,16 @@ Interviewers need to:
 6. [*Optional - If applicant doesn't have a dockerhub account*] Login to IBM Container Registry (ICR)
    - Run the command `ibmcloud cr`
 
+## Interviewer closeout steps 
+
+1. Logout of the IBM Cloud CLI 
+    - `ibmcloud logout`
+2. Remove the interviewees SSH key from the VM 
+    - SSH into the VM 
+    - Navigate to `~/.ssh/authorized_keys`
+    - Remove the SSH key. If you used ssh-copy-id it should be the last entry in the document
+3. Shut down the VM - same steps as starting the machine, but hit `stop`
+
 ## Key Links
 
 Screen share for the IBM-er pair as they explain the set of challenges:
